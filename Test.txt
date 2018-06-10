@@ -1,1 +1,39 @@
-不是亲姐都是表姐
+	
+	git diff 文件名 ：查看历史修改
+	git status  :查看仓库的当前状态
+	添加文件到Git仓库：
+	1，git add
+	2. git commit -m"注释"
+
+	版本回退：
+	1，git log:查看所有版本信息（提交日志）
+	2，git log --pretty=oneline:查看所有版本信息
+	
+	git reset --hard HEAD :退回指定的HEAD个版本
+		
+	HEAD:表示当前版本 
+	HEAD^:上一个版本
+	HEAD^^:上上个版本
+	HEAD~2：退回指定数字个版本
+	
+	回退具体的版本：
+	git reset --hard 版本ID
+	查看操作日志：
+	git reflog : 查看所有操作
+	
+	注意：Git管理的是修改
+	每次git add 提交的都是一次修改
+	把这次修改提交到站存区
+	
+	撤销修改：
+	git checkout -- 文件名   （只能撤销工作区的修改）
+	1.修改后还未提交，撤销所有工作区的修改
+	2.修改后提交到了暂存区，再次修改，此时撤销 回退到最后一次提交到暂存区的情况
+	3.暂存区回退到工作区 并且撤销工作区修改
+		1.git reset HEAD 文件名
+		2.git checkout --文件名
+	
+	
+	
+	
+	
