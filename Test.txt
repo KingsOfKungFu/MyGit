@@ -34,6 +34,22 @@
 		2.git checkout --文件名
 	
 	
+	6.删除文件
+	1，git rm 文件名
+	2,git commit -m "xxx"
+	
+	7.远程仓库
+	GitHub  GitLab
+	
+	生成SSH的钥匙
+	ssh-keygen -t   
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
